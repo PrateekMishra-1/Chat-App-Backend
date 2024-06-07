@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 const corsOptions = {
-    origin: "http://localhost:3000",
+    origin: "https://chat-app-frontend-phi-one.vercel.app",
     credentials: true
 }
 
